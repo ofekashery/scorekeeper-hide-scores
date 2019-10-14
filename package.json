@@ -1,0 +1,24 @@
+{
+  "name": "scorekeeper-hide-scores",
+  "version": "0.0.1",
+  "description": "Hides the scores when the match is over",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofekashery/scorekeeper-hide-scores.git"
+  },
+  "author": "Ofek Ashery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ofekashery/scorekeeper-hide-scores/issues"
+  },
+  "homepage": "https://github.com/ofekashery/scorekeeper-hide-scores#readme",
+  "dependencies": {
+    "fetch-cookie": "^0.7.3",
+    "node-fetch": "^2.6.0",
+    "ws": "^7.1.2"
+  }
+}
