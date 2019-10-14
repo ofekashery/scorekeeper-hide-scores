@@ -17,6 +17,7 @@ jobs:
       run: npm run build
     - name: Rename files
       run: |
+        cd dist
         mv index-linux hide-scores-linux
         mv index-macos hide-scores-macos
         mv index-win.exe hide-scores-windows.exe
