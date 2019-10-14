@@ -4,7 +4,8 @@
   "description": "Hides the scores when the match is over",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "pkg index.js --out-path ./dist"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "dependencies": {
     "fetch-cookie": "^0.7.3",
     "node-fetch": "^2.6.0",
+    "pkg": "^4.4.0",
     "ws": "^7.1.2"
   }
 }
