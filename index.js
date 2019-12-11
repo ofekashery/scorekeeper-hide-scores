@@ -15,7 +15,7 @@ login().then(() => {
       console.log('Match start');
       matchTimer = setTimeout(() => {
         console.log('Match end');
-        fetch(`http://${host}/event/test/control/command/${overlay ? 'video' : 'blank'}/`, {'method': 'POST'});
+        fetch(`http://${host}/event/${code}/control/command/${overlay ? 'video' : 'blank'}/`, {'method': 'POST'});
       }, 158 * 1000 + 500);
     } else if (type === 'MATCH_ABORT') {
       clearTimeout(matchTimer);
