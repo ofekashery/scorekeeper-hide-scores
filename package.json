@@ -1,6 +1,6 @@
 {
   "name": "scorekeeper-hide-scores",
-  "version": "1.0.0",
+  "version": "0.0.5",
   "description": "Hides the scores when the match is over",
   "main": "index.js",
   "scripts": {
